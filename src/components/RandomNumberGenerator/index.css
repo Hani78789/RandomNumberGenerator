@@ -1,0 +1,50 @@
+.random-number-generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e4ebf3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.number-display {
+  font-size: 48px;
+  color: #0b69ff;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.generate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generate-button:hover {
+  background-color: #0a5dd9;
+}
+
+.generate-button:active {
+  outline: none;
+  background-color: #0945b5;
+}
